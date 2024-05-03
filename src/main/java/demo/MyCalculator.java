@@ -23,15 +23,16 @@ public class MyCalculator {
 	}
 	public void greeting()
 	{
-<<<<<<< HEAD
 		System.out.println("Hello World!!");
-=======
 		System.out.println("Hello GFG!");
 	}
 	public void greetingFromJivesh()
 	{
 		System.out.println("Hello World!, This is Jivesh");
->>>>>>> branch 'master' of https://github.com/hkshitesh/GFG-21-MAVEN-REPO.git
+	}
+	public void greetingFromHimabindu()
+	{
+		System.out.println("Hello World!, This is Hima Bindu Golla");
 	}
 
 	public static void main(String[] args) {
@@ -43,5 +44,6 @@ public class MyCalculator {
 		calc.show();
 		calc.greeting();
 		calc.greetingFromJivesh();
+		calc.greetingFromHimabindu();
 	}
 }
